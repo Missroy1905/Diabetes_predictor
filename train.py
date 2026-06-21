@@ -31,10 +31,10 @@ lr_predictions = lr_model.predict(X_test)
 lr_acc = accuracy_score(Y_test, lr_predictions)
 
 # compare outputs 
-print("-", * 30 )
+print("-" * 30 )
 print(f"SVM Accuracy:                        {svm_acc * 100:.2f}%")
 print(f"Logistic Regression Accuracy:        {lr_acc * 100:.2f}%")
-print("-", * 30 )
+print("-" * 30 )
 
 # save the LR model and scaler 
 
